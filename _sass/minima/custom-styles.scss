@@ -1,0 +1,23 @@
+// Import root color map
+@import "root-color-map";
+
+// Responsive logo / nav styles
+@import "nav";
+
+// Then your existing imports
+@import "open-coding/main";
+@import "lessonbase";
+@import "footer";
+
+// Capstone Infograph Styles (centralized)
+// All individual capstone infograph SCSS has been unified into one file to provide a consistent B/W theme.
+@import "capstone/infograph";
+
+// Greppers SFI infograph color overrides (amber/warm theme)
+@import "capstone/greppers-infograph";
+
+// RPN Calculator Lesson Interactives
+@import "nighthawk/rpn-interactive";
+
+// FRQ Interactive Lesson Styles (popcorn hacks, drag-drop, visualizer, quiz, game)
+@import "nighthawk/frq-interactive";
